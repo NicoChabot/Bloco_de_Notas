@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77b3d4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #77b3d4;
+}
+
+.note {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #77b3d4;
+}
+
+.note h3 {
+    margin: 0;
+}
+
+.note p {
+    margin: 10px 0;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a.button:hover {
+    background: #77b3d4;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        float: none;
+        text-align: center;
+    }
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
